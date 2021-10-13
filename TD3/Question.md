@@ -1,6 +1,6 @@
 <h1> Question 4 TD3 : </h1>
 
-2) On ne fait rien: la visibilité par default des constructeurs 
+**2)** On ne fait rien: la visibilité par default des constructeurs 
 interdit deja l'instanciation de l'exterieur de fs
 
 **3)**
