@@ -1,0 +1,34 @@
+Voici quelques informations complementaires: 
+
+Ligne de compilation GCC:
+gcc -Wno-format -o follow test.c -Wno-deprecated-declarations -Wno-format-security -lm `pkg-config --cflags --libs gtk+-3.0` -export-dynamic
+
+
+
+La verion de glade utilisé est 3.22.2
+Version de GTK :GTK+3.0 (dernière version)
+Compilateur utilisé  --> GCC
+
+
+Le fichier executable est: follow
+le fichier de test/ execution est test.c
+le fichier XML avec les informations (fenetre principale) follow.glade
+le fichier XML avec les informations de la popup (A Propos) follow.glade
+
+
+
+Les inculde utilisé sont :
+#include <stdlib.h>
+#include <sys/types.h>
+#include <signal.h>
+#include <unistd.h>
+#include <string.h>
+#include <gtk/gtk.h>
+#include <gtk/gtkx.h>
+#include <math.h>
+#include <time.h>
+#include <ctype.h>
+
+
+Chargement avec GTK_builder  -> OK
+Affichage (sans callbacks)   -> OK
